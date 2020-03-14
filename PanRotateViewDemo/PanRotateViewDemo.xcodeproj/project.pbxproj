@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3A4B4667241D189000967432 /* PanRotateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4B4665241D189000967432 /* PanRotateView.m */; };
+		3A4B466A241D1A8E00967432 /* NormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4B4669241D1A8E00967432 /* NormalViewController.m */; };
+		3A4B466D241D1A9900967432 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4B466C241D1A9900967432 /* TableViewController.m */; };
+		3A4B4670241D1ABA00967432 /* PanRotateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4B466F241D1ABA00967432 /* PanRotateCell.m */; };
 		3ACC700B241D182A0061971E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC700A241D182A0061971E /* AppDelegate.m */; };
-		3ACC700E241D182A0061971E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC700D241D182A0061971E /* SceneDelegate.m */; };
 		3ACC7011241D182A0061971E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC7010241D182A0061971E /* ViewController.m */; };
 		3ACC7014241D182A0061971E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ACC7012241D182A0061971E /* Main.storyboard */; };
 		3ACC7016241D182D0061971E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ACC7015241D182D0061971E /* Assets.xcassets */; };
@@ -39,11 +41,15 @@
 /* Begin PBXFileReference section */
 		3A4B4665241D189000967432 /* PanRotateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanRotateView.m; sourceTree = "<group>"; };
 		3A4B4666241D189000967432 /* PanRotateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanRotateView.h; sourceTree = "<group>"; };
+		3A4B4668241D1A8E00967432 /* NormalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalViewController.h; sourceTree = "<group>"; };
+		3A4B4669241D1A8E00967432 /* NormalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalViewController.m; sourceTree = "<group>"; };
+		3A4B466B241D1A9900967432 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		3A4B466C241D1A9900967432 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		3A4B466E241D1ABA00967432 /* PanRotateCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanRotateCell.h; sourceTree = "<group>"; };
+		3A4B466F241D1ABA00967432 /* PanRotateCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanRotateCell.m; sourceTree = "<group>"; };
 		3ACC7006241D182A0061971E /* PanRotateViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanRotateViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ACC7009241D182A0061971E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3ACC700A241D182A0061971E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3ACC700C241D182A0061971E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		3ACC700D241D182A0061971E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		3ACC700F241D182A0061971E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3ACC7010241D182A0061971E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3ACC7013241D182A0061971E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -110,10 +116,14 @@
 			children = (
 				3ACC7009241D182A0061971E /* AppDelegate.h */,
 				3ACC700A241D182A0061971E /* AppDelegate.m */,
-				3ACC700C241D182A0061971E /* SceneDelegate.h */,
-				3ACC700D241D182A0061971E /* SceneDelegate.m */,
 				3ACC700F241D182A0061971E /* ViewController.h */,
 				3ACC7010241D182A0061971E /* ViewController.m */,
+				3A4B4668241D1A8E00967432 /* NormalViewController.h */,
+				3A4B4669241D1A8E00967432 /* NormalViewController.m */,
+				3A4B466B241D1A9900967432 /* TableViewController.h */,
+				3A4B466C241D1A9900967432 /* TableViewController.m */,
+				3A4B466E241D1ABA00967432 /* PanRotateCell.h */,
+				3A4B466F241D1ABA00967432 /* PanRotateCell.m */,
 				3ACC7012241D182A0061971E /* Main.storyboard */,
 				3ACC7015241D182D0061971E /* Assets.xcassets */,
 				3ACC7017241D182D0061971E /* LaunchScreen.storyboard */,
@@ -280,11 +290,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A4B4670241D1ABA00967432 /* PanRotateCell.m in Sources */,
 				3ACC7011241D182A0061971E /* ViewController.m in Sources */,
 				3ACC700B241D182A0061971E /* AppDelegate.m in Sources */,
 				3A4B4667241D189000967432 /* PanRotateView.m in Sources */,
 				3ACC701C241D182D0061971E /* main.m in Sources */,
-				3ACC700E241D182A0061971E /* SceneDelegate.m in Sources */,
+				3A4B466D241D1A9900967432 /* TableViewController.m in Sources */,
+				3A4B466A241D1A8E00967432 /* NormalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  PanRotateCell.h
 //  PanRotateViewDemo
 //
 //  Created by ZZ on 2020/3/14.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (nonatomic, strong) UIWindow *window;
+@interface PanRotateCell : UITableViewCell
 
 @end
 
+NS_ASSUME_NONNULL_END

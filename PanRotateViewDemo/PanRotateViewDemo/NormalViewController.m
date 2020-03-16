@@ -33,12 +33,23 @@
     view2.backgroundColor = [UIColor lightGrayColor];
     [self.view addSubview:view2];
 
-    PanRotateView *view3 = [[PanRotateView alloc] initWithFrame:CGRectMake(50, 230, [UIScreen mainScreen].bounds.size.width - 100, 200)];
+    PanRotateView *view3 = [[PanRotateView alloc] initWithFrame:CGRectMake(50, 230, [UIScreen mainScreen].bounds.size.width - 100, 150)];
     view3.backgroundColor = [UIColor redColor];
     view3.layer.cornerRadius = 10.0;
     view3.layer.masksToBounds = YES;
     [self.view addSubview:view3];
         
+    PanRotateView *view4 = [[PanRotateView alloc] initWithFrame:CGRectMake(50, 400, [UIScreen mainScreen].bounds.size.width - 100, 150)];
+    view4.layer.cornerRadius = 10.0;
+    view4.layer.masksToBounds = YES;
+    view4.rotateRateY = M_PI / 5;
+    view4.rotateRateX = M_PI / 5;
+    [self.view addSubview:view4];
+
+    UIImageView *imageview = [[UIImageView alloc] initWithFrame:view4.bounds];
+    imageview.image = [UIImage imageNamed:@"img.jpeg"];
+    imageview.contentMode = UIViewContentModeScaleAspectFill;
+    [view4 addSubview:imageview];
 }
 
 @end

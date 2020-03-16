@@ -11,6 +11,7 @@
 		3A4B466A241D1A8E00967432 /* NormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4B4669241D1A8E00967432 /* NormalViewController.m */; };
 		3A4B466D241D1A9900967432 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4B466C241D1A9900967432 /* TableViewController.m */; };
 		3A4B4670241D1ABA00967432 /* PanRotateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4B466F241D1ABA00967432 /* PanRotateCell.m */; };
+		3A4B467A241FAFFC00967432 /* img.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3A4B4679241FAFFC00967432 /* img.jpeg */; };
 		3ACC700B241D182A0061971E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC700A241D182A0061971E /* AppDelegate.m */; };
 		3ACC7011241D182A0061971E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC7010241D182A0061971E /* ViewController.m */; };
 		3ACC7014241D182A0061971E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ACC7012241D182A0061971E /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 		3A4B466C241D1A9900967432 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		3A4B466E241D1ABA00967432 /* PanRotateCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanRotateCell.h; sourceTree = "<group>"; };
 		3A4B466F241D1ABA00967432 /* PanRotateCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanRotateCell.m; sourceTree = "<group>"; };
+		3A4B4679241FAFFC00967432 /* img.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img.jpeg; sourceTree = "<group>"; };
 		3ACC7006241D182A0061971E /* PanRotateViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanRotateViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ACC7009241D182A0061971E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3ACC700A241D182A0061971E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				3A4B466C241D1A9900967432 /* TableViewController.m */,
 				3A4B466E241D1ABA00967432 /* PanRotateCell.h */,
 				3A4B466F241D1ABA00967432 /* PanRotateCell.m */,
+				3A4B4679241FAFFC00967432 /* img.jpeg */,
 				3ACC7012241D182A0061971E /* Main.storyboard */,
 				3ACC7015241D182D0061971E /* Assets.xcassets */,
 				3ACC7017241D182D0061971E /* LaunchScreen.storyboard */,
@@ -266,6 +269,7 @@
 				3ACC7019241D182D0061971E /* LaunchScreen.storyboard in Resources */,
 				3ACC7016241D182D0061971E /* Assets.xcassets in Resources */,
 				3ACC7014241D182A0061971E /* Main.storyboard in Resources */,
+				3A4B467A241FAFFC00967432 /* img.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

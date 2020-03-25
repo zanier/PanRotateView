@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "NormalViewController.h"
 #import "TableViewController.h"
+#import "CustomViewController.h"
 
 #define nameKey @"dataSourceNameKey"
 #define classKey @"dataSourceClsKey"
@@ -27,6 +28,7 @@
     self.title = @"PanRotateView";
     _dataSource = @[
         @{nameKey : @"普通视图", classKey : NormalViewController.class},
+        @{nameKey : @"自定义系数", classKey : CustomViewController.class},
         @{nameKey : @"在表视图中", classKey : TableViewController.class},
     ];
     [self.view addSubview:self.tableView];
